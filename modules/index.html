@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modules</title>
+    <script src="scripts.js"></script>
+    <script type="module">
+      import xyz, { choice1 } from "./scripts.js";
+      console.log(choice1);
+      console.log(xyz(choice1, "Baseball"));
+    </script>
+  </head>
+  <body></body>
+</html>
